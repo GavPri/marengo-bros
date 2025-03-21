@@ -29,7 +29,7 @@ export default function Contact() {
 
           {/* Button */}
           <a
-            href="#"
+            href="mailto:info@marengobros.com"
             className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg text-lg shadow-md border-2 border-black flex items-center justify-center w-48"
           >
             Request Now <span className="ml-2">➤</span>
