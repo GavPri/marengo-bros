@@ -35,34 +35,6 @@ const HeroSection = () => {
           <Logo />
           <Typewriter />
         </div>
-
-        {/* Navigation Links */}
-        {/* <nav className="text-4xl md:text-xl items-start md:text-center border-0 sm:border-4 font-bold sm:border-gray-50 rounded-full flex flex-col sm:flex-row justify-between mb-12 gap-4 sm:gap-8 w-full sm:w-1/2 px-6 py-3">
-          <Link
-            className="text-stroke-orange text-center sm:text-left"
-            href={"/about"}
-          >
-            About
-          </Link>
-          <Link
-            className="text-stroke-orange text-center sm:text-left"
-            href={"#customItins"}
-          >
-            Custom Writing
-          </Link>
-          <Link
-            className="text-stroke-orange text-center sm:text-left"
-            href={"/custom-itineries"}
-          >
-            Custom Itineraries
-          </Link>
-          <Link
-            className="text-stroke-orange text-center sm:text-left"
-            href={"/contact"}
-          >
-            Contact
-          </Link>
-        </nav> */}
       </div>
     </section>
   );
