@@ -37,7 +37,7 @@ const CustomItins = () => {
           </div>
 
           {/* Right Column - Content */}
-          <div className="w-full md:w-7/12 text-stroke-orange p-6 bg-white/40 md:p-8 rounded-lg">
+          <div className="w-full md:w-7/12 text-stroke-orange p-6 md:p-8 rounded-lg">
             <div className="space-y-8">
               {/* Why Use Us Section */}
               <div>
@@ -55,46 +55,6 @@ const CustomItins = () => {
               </div>
 
               {/* How It Works Section */}
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                  How It Works
-                </h2>
-
-                <div className="space-y-4">
-                  <div>
-                    <h3 className="text-xl font-bold text-white">
-                      Step 1: The journey begins with our{" "}
-                      <em>Yosemite Wish List</em>,
-                    </h3>
-                    <p className="text-base md:text-lg text-white">
-                      a brief questionnaire to determine your "travel persona"
-                      and help us better understand your travel needs.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xl font-bold text-white">
-                      Step 2: After receiving your Yosemite Wish List,
-                    </h3>
-                    <p className="text-base md:text-lg text-white">
-                      we provide a follow up email to clarify any outstanding
-                      questions.
-                    </p>
-                  </div>
-
-                  <div>
-                    <h3 className="text-xl font-bold text-white">
-                      Step 3: We then create a multi-day itinerary that
-                      includes:
-                    </h3>
-                    <p className="text-base md:text-lg text-white">
-                      iconic and under-the-radar attractions; suggested
-                      activities; lodging and dining options; driving and
-                      essential travel tips.
-                    </p>
-                  </div>
-                </div>
-              </div>
 
               {/* Learn More Button */}
               <div className="w-full sm:pt-4 flex justify-center pb-16 sm:pb-4">
