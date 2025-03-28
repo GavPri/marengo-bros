@@ -1,7 +1,7 @@
 @import "tailwindcss";
 /* @import "tw-animate-css"; */
-.lucide-x{
-  color: white;
+.lucide-x {
+  color: transparent;
 }
 @custom-variant dark (&:is(.dark *));
 
@@ -49,7 +49,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /* styles/globals.css or your component's CSS */
 .text-stroke {
   -webkit-background-clip: text;
@@ -60,13 +59,10 @@ html {
 /* styles/globals.css or your component's CSS */
 .text-stroke-orange {
   color: white; /* Text color */
-  text-shadow: 
-    0 0 3px #cf6d2e,   /* Shadow on the top */
-    0 0 5px #cf6d2e,   /* Shadow on the top */
-    0 0 10px #cf6d2e,  /* Shadow around */
-    0 0 15px #cf6d2e,  /* Larger shadow */
-    0 0 20px #cf6d2e,  /* Larger shadow */
-    0 0 25px #cf6d2e;  /* Largest shadow */
+  text-shadow: 0 0 3px #cf6d2e, /* Shadow on the top */ 0 0 5px #cf6d2e,
+    /* Shadow on the top */ 0 0 10px #cf6d2e,
+    /* Shadow around */ 0 0 15px #cf6d2e, /* Larger shadow */ 0 0 20px #cf6d2e,
+    /* Larger shadow */ 0 0 25px #cf6d2e; /* Largest shadow */
 }
 
 :root {
@@ -149,8 +145,13 @@ html {
 
 @layer utilities {
   @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
   }
 
   .animate-blink {
