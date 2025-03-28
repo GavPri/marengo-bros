@@ -1,7 +1,6 @@
 // components/HeroSection.js
 import Image from "next/image";
 import Logo from "../ui/logo";
-import Link from "next/link";
 import Typewriter from "../ui/typewriter";
 
 const HeroSection = () => {
