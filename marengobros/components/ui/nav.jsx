@@ -20,11 +20,16 @@ export default function NavPills() {
   return (
     <>
       {/* Mobile Navigation */}
-      <div className="fixed bottom-20 left-1/2 transform -translate-x-1/2 z-50">
+      <div className="fixed bottom-16 left-1/2 transform -translate-x-1/2 z-50">
         <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild>
-            
-            <button className={open ? `hidden` : `flex items-center justify-center w-14 h-14 rounded-full backdrop-blur-sm shadow-lg border-2 border-gray-50`}>
+            <button
+              className={
+                open
+                  ? `hidden`
+                  : `flex items-center justify-center w-14 h-14 rounded-full backdrop-blur-sm bg-orange-600 shadow-lg border-2 border-gray-50 hover:cursor-pointer`
+              }
+            >
               <Menu className="h-6 w-6 text-white" />
               <span className="sr-only">Open navigation menu</span>
             </button>
