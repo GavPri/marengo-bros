@@ -1,16 +1,18 @@
 // components/Logo.js
 import Image from "next/image";
+import Link from "next/link";
 
 const Logo = () => {
   return (
-    <div className="logo">
+    <Link href={'/about'}>
       <Image
         src="/mb-logo1.png"
         alt="MB Logo"
         width={150} 
-        height={50} 
+        height={150} 
+        quality={100}
       />
-    </div>
+    </Link>
   );
 };
 
