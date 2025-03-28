@@ -20,9 +20,8 @@ export default function Typewriter() {
   }, [index]);
 
   return (
-    <h1 className="text-4xl md:text-2xl font-semibold font-mono text-white text-stroke-orange text-center">
+    <h1 className="text-2xl  font-semibold font-mono text-white text-stroke-orange text-center">
       {displayedText}
-      <span className="inline-block w-2 h-16 bg-white ml-1 animate-blink align-middle border-orange-400" />
     </h1>
   );
 }
