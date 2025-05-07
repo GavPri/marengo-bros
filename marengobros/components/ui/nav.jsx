@@ -21,7 +21,7 @@ export default function NavPills() {
     <>
       {/* Mobile Navigation */}
       <div className="fixed bottom-16 left-1/2 transform -translate-x-1/2 z-50">
-        <Sheet open={open} onOpenChange={setOpen}>
+        <Sheet open={open} onOpenChange={setOpen} >
           <SheetTrigger asChild>
             <button
               className={
@@ -36,7 +36,7 @@ export default function NavPills() {
           </SheetTrigger>
           <SheetContent
             side="bottom"
-            className="rounded-t-3xl  bg-transparent border-gray-50 pt-6 pb-10"
+            className="rounded-t-3xl  bg-transparent border-gray-50 pt-6 pb-10 focus:outline-none"
           >
             <nav className="flex flex-col items-center gap-6 mt-4">
               {navItems
