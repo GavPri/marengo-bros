@@ -51,7 +51,7 @@ export default function MarengoBrothersProfile() {
 
         {/* Center Logo */}
         <div className="mb-8 w-full max-w-xs md:mb-0 md:mt-32 md:w-1/4 flex flex-col items-center">
-          <div className="overflow-hidden rounded-3xl p-4 shadow-xl bg-[#7a7336] border-white border-2">
+          <div className="overflow-hidden rounded-3xl p-4 shadow-xl">
             <Logo />
             <div className="flex flex-col gap-8 mt-4 text-center">
               <Button className="bg-orange-500 border-2 rounded-full border-white text-xl hover:cursor-pointer">
