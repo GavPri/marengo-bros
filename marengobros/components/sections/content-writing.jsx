@@ -6,7 +6,7 @@ export default function ContentWriting() {
       <div className="relative w-screen h-screen">
         {/* Background Image */}
         <Image
-          src="/contact-page-bg.png"
+          src="/starry-night-content-writing.png"
           alt="animated redwood trees"
           quality={100}
           fill
@@ -24,20 +24,16 @@ export default function ContentWriting() {
         />
 
         {/* Dark Overlay for Contrast */}
-        <div className="absolute inset-0 "></div>
+        <div className="absolute inset-0 bg-black -z-50"></div>
 
         {/* Centered Content */}
         <div className="min-h-screen flex flex-col items-start mt-12 sm:items-center justify-center px-4">
           {/* Glass Panel */}
-          <div className="max-w-2xl w-full px-6 py-10 rounded-2xl shadow-xl text-stroke-orange text-center z-10 relative">
+          <div className="max-w-2xl w-full px-6 py-10 rounded-2xl text-center z-10 relative">
             {/* Content Writing Section */}
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white drop-shadow-xl text-stroke-orange ">
               Content Writing
             </h2>
-            <p className="text-lg md:text-xl mb-6 text-gray-200 drop-shadow-lg text-center sm:max-w-1/2 mx-auto text-stroke-orange ">
-              Travel content rich in voice and infused with the enduring spirit
-              of the great outdoors.
-            </p>
 
             {/* Custom Yosemite Itineraries Section */}
             <p className="text-lg md:text-xl mb-8 text-gray-200 drop-shadow-lg font-bold">
@@ -50,7 +46,10 @@ export default function ContentWriting() {
             <p className="text-white mb-8 font-bold text-xl">
               Check out{" "}
               <span className="text-stroke-orange">
-                <a href="https://www.yosemite.com/author/danm/" target="_blank">
+                <a
+                  href="https://www.yosemite.com/yosemite-mariposa-stories/"
+                  target="_blank"
+                >
                   MarengoBros Stories
                 </a>
               </span>{" "}
@@ -60,7 +59,7 @@ export default function ContentWriting() {
             {/* Button */}
             <a
               href="mailto:info@marengobros.com"
-              className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 text-lg shadow-md border-2 border-black flex items-center justify-center w-48 mx-auto transition-all duration-200 z-10 rounded-full"
+              className="bg-amber-700 hover:bg-orange-600 text-stroke-orange font-bold py-3 px-6 text-lg shadow-md border-2 border-black flex items-center justify-center w-48 mx-auto transition-all duration-200 z-10 rounded-full"
             >
               Request Now <span className="ml-2">➤</span>
             </a>
