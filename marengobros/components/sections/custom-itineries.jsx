@@ -26,31 +26,29 @@ const CustomItins = () => {
           <div className="w-full md:w-5/12 text-center md:text-left">
             <div className="flex flex-col items-center md:items-start gap-4 mb-8">
               <Logo />
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#cf6d2e] text-stroke">
-                Custom Yosemite Itineraries
-              </h1>
-              <p className="text-lg md:text-xl text-stroke-orange max-w-md">
-                Personalized itineraries from local experts whether you're
-                traveling solo or with the family.
-              </p>
             </div>
           </div>
 
           {/* Right Column - Content */}
-          <div className="w-full md:w-7/12 text-stroke-orange p-6 md:p-8 rounded-lg">
+          <div className="w-full md:w-7/12 text-stroke-orange p-6 md:p-8 rounded-lg ml-24">
             <div className="space-y-8">
               {/* Why Use Us Section */}
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                <h2 className="text-2xl md:text-3xl font-bold text-white  md:mt-20 ">
                   Why use us?
                 </h2>
-                <p className="text-base md:text-lg text-white">
+                <p className="text-base md:text-lg text-white w-[450px] mb-4">
                   We understand that online search tools are becoming
                   increasingly advanced, but we hold firm that there's no
                   substitute for experience. If you don't have time for a deep
                   dive, or you'd rather get first-hand tips from pros, then
                   choose the Marengo Bros to craft your personalized Yosemite
                   itinerary.
+                </p>
+                <p className="text-base md:text-lg text-white w-[450px]">
+                  From solo backcountry adventures to family outings in Gold
+                  Rush gateway towns, we know the region and understand what
+                  travelers want.
                 </p>
               </div>
 
