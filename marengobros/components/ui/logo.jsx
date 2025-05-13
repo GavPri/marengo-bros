@@ -1,17 +1,22 @@
-// components/Logo.js
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Logo = () => {
+  const pathname = usePathname();
+
+  const isAboutPage = pathname === "/about";
+
   return (
-    <Link href={"/about"} className="rounded-lg">
+    <Link href={isAboutPage ? "/" : "/about"} className="rounded-lg">
       <Image
         src="/mb-logo-border-rounded.png"
         alt="MB Logo"
         width={150}
         height={150}
         quality={100}
-        
       />
     </Link>
   );
