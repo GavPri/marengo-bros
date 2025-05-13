@@ -39,30 +39,30 @@ export default function ContentWriting() {
             <p className="text-lg md:text-xl mb-8 text-gray-200 drop-shadow-lg font-bold">
               The Marengo Bros believe in the synergy between wide open spaces
               and nuanced storytelling. As native Californians with decades of
-              experience in travel marketing, their writing is energized by a
-              lifetime of adventure and their deep love for the Golden State.
+              experience in travel marketing, their writing relfects a lifetime
+              of adventure and their deep love for the Golden State.
             </p>
-
-            <p className="text-white mb-8 font-bold text-xl">
-              Check out{" "}
-              <span className="text-stroke-orange">
+            {/* Button */}
+            <a
+              href="mailto:info@marengobros.com"
+              className="bg-[#77721f] hover:bg-black border-2 border-white rounded-full text-stroke-orange over:cursor-pointer text-stroke-orange font-bold py-3 px-6 text-lg shadow-md flex items-center justify-center w-48 mx-auto transition-all duration-200 z-10 "
+            >
+              Contact Us<span className="ml-2">➤</span>
+            </a>
+            <p className="text-white mb-8 font-bold text-2xl pt-16">
+              Check out <br></br>
+              <span className="text-stroke-orange tracking-wide text-4xl">
                 <a
                   href="https://www.yosemite.com/yosemite-mariposa-stories/"
                   target="_blank"
+                  className="my-6 inline-block"
                 >
                   MarengoBros Stories
                 </a>
               </span>{" "}
+              <br />
               on Yosemite.com
             </p>
-
-            {/* Button */}
-            <a
-              href="mailto:info@marengobros.com"
-              className="bg-amber-700 hover:bg-orange-600 text-stroke-orange font-bold py-3 px-6 text-lg shadow-md border-2 border-black flex items-center justify-center w-48 mx-auto transition-all duration-200 z-10 rounded-full"
-            >
-              Request Now <span className="ml-2">➤</span>
-            </a>
           </div>
         </div>
       </div>

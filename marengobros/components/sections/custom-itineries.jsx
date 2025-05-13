@@ -20,12 +20,16 @@ const CustomItins = () => {
       </div>
 
       {/* Content Container */}
-      <div className="container mx-auto px-4 py-16 md:py-24">
+      <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row gap-8 md:gap-16">
           {/* Left Column - Title and Tagline */}
           <div className="w-full md:w-5/12 text-center md:text-left">
-            <div className="flex flex-col items-center md:items-start gap-4 mb-8">
+            <div className="flex flex-col items-center justify-start gap-4 md:gap-2 mb-8">
               <Logo />
+              <p className="text-stroke-orange text-2xl tracking-tighter text-center font-bold">
+                Custom Yosemite <br />
+                Itineraries
+              </p>
             </div>
           </div>
 
@@ -33,7 +37,7 @@ const CustomItins = () => {
           <div className="w-full md:w-7/12 text-stroke-orange p-6 md:p-8 rounded-lg ml-24">
             <div className="space-y-8">
               {/* Why Use Us Section */}
-              <div>
+              <div className="md:pt-24 md:ml-24">
                 <h2 className="text-2xl md:text-3xl font-bold text-white  md:mt-20 ">
                   Why use us?
                 </h2>
@@ -58,7 +62,7 @@ const CustomItins = () => {
               <div className="w-full sm:pt-4 flex justify-center pb-16 sm:pb-4">
                 <a
                   href="mailto:info@marengobros.com"
-                  className="inline-block px-6 py-3 text-white font-semibold bg-[#cf6d2e] rounded-full hover:bg-orange-600 transition duration-300 border-2 border-white mx-auto"
+                  className="bg-[#77721f] hover:bg-black inline-block px-6 py-3 text-white font-semibold  rounded-full transition duration-300 border-2 border-white mx-auto"
                 >
                   Learn More
                 </a>

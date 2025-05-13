@@ -53,7 +53,7 @@ export default function MarengoBrothersProfile() {
           <div className="p-4 shadow-xl rounded-3xl">
             <Logo />
             <div className="flex flex-col gap-6 mt-4 text-center">
-              <Button className="bg-amber-900 border-2 rounded-full text-stroke-orange border-white text-xl hover:cursor-pointer">
+              <Button className="bg-[#77721f] border-2 rounded-full text-stroke-orange border-white text-xl hover:cursor-pointer">
                 <a href="mailto:info@marengobros.com">Contact Us</a>
               </Button>
             </div>
