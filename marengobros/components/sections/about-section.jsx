@@ -76,7 +76,7 @@ export default function MarengoBrothersProfile() {
           <div className="pt-28 rounded-3xl bg-[#7a7336] text-white shadow-xl border-2 border-white px-4 pb-6 text-center">
             <p className="text-base leading-snug mt-6">
               There's no place Dan Marengo would rather be than in the wild. A
-              career travel writer and marketer, Dan approaches creative
+              career travel writer and destination marketer, Dan approaches creative
               assignments with a native NorCal perspective fueled by a worldly
               (some might say otherworldly) imagination. Dan has explored
               California extensively, from the cables at Half Dome to the Baja

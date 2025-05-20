@@ -20,7 +20,7 @@ export default function NavPills() {
   return (
     <>
       {/* Mobile Navigation */}
-      <div className="fixed bottom-16 left-1/2 transform -translate-x-1/2 z-50">
+      <div className="fixed bottom-16 left-1/2 transform -translate-x-1/2 z-30">
         <Sheet open={open} onOpenChange={setOpen} >
           <SheetTrigger asChild>
             <button

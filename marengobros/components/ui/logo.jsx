@@ -8,9 +8,10 @@ const Logo = () => {
   const pathname = usePathname();
 
   const isAboutPage = pathname === "/about";
+  const isItinsPage = pathname === "/custom-itineries";
 
   return (
-    <Link href={isAboutPage ? "/" : "/about"} className="rounded-lg">
+    <Link href={isAboutPage || isItinsPage ? "/" : "/about"} className="rounded-lg">
       <Image
         src="/mb-logo-border-rounded.png"
         alt="MB Logo"

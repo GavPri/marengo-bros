@@ -9,10 +9,6 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      {/* <AboutSection />
-      <CustomItins />
-      <Resources />
-      <Contact /> */}
     </>
   );
 }
