@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function ContentWriting() {
   return (
-    <section id="contact" className="relative w-screen h-screen overflow-y-hidden">
+    <section
+      id="contact"
+      className="relative w-screen h-screen overflow-y-hidden"
+    >
       {/* Container to hold background images */}
       <div className="relative w-full h-full">
         {/* Background Image for desktop */}
@@ -34,7 +37,7 @@ export default function ContentWriting() {
               Content Writing
             </h2>
 
-            <p className="text-lg md:text-xl mb-8 text-gray-200 drop-shadow-lg font-bold">
+            <p className="text-lg md:text-xl mb-8 text-stroke-orange md:text-gray-50 drop-shadow-lg font-bold">
               The Marengo Bros. believe in the synergy between wide open spaces
               and nuanced storytelling. As native Californians with decades of
               experience in travel marketing, their writing reflects a lifetime
@@ -43,14 +46,14 @@ export default function ContentWriting() {
 
             <a
               href="mailto:info@marengobros.com"
-              className="bg-[#77721f] hover:bg-black border-2 border-white rounded-full text-stroke-orange cursor-pointer font-bold py-1.5 px-3 text-lg shadow-md flex items-center justify-center w-48 mx-auto transition-all duration-200"
+              className="bg-[#77721f] hover:bg-black border-2 border-white rounded-full text-stroke-orange cursor-pointer font-bold py-0.75 md:py-1.5 px-1.5 md:px-3 text-lg shadow-md flex items-center justify-center w-fit mx-auto transition-all duration-200"
             >
               Contact Us<span className="ml-2">➤</span>
             </a>
 
-            <p className="text-white mb-16 font-bold text-2xl pt-16 ">
+            <p className="text-white mb-8 font-bold text-lg md:text-2xl pt-8 md:pt-16 ">
               Check out <br />
-              <span className="text-stroke-orange tracking-wide text-4xl">
+              <span className="text-stroke-orange tracking-wide text-xl md:text-4xl">
                 <a
                   href="https://www.yosemite.com/yosemite-mariposa-stories/"
                   target="_blank"
