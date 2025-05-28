@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../ui/logo";
+import CiLogo from "../ui/custom-itins-logo";
 
 const CustomItins = () => {
   return (
@@ -7,7 +7,7 @@ const CustomItins = () => {
       id="customItins"
       className="relative w-full min-h-screen overflow-hidden"
     >
-      {/* Background Image - Modified for full coverage */}
+      {/* Background Image */}
       <div className="absolute inset-0 w-full h-full -z-10">
         <Image
           src="/yosemite-cliff-itins.png"
@@ -21,7 +21,6 @@ const CustomItins = () => {
           quality={100}
           priority
         />
-        {/* Optional dark overlay for better text contrast */}
         <div className="absolute inset-0 bg-black/20" />
       </div>
 
@@ -31,21 +30,21 @@ const CustomItins = () => {
           {/* Left Column */}
           <div className="w-full md:w-5/12 text-center md:text-left">
             <div className="flex flex-col items-center justify-start gap-4 md:gap-2 mb-8">
-              <Logo />
-              <p className="text-stroke-orange text-2xl tracking-tighter text-center font-bold">
+              <CiLogo />
+              <p className="text-stroke-orange text-2xl tracking-tighter font-bold">
                 Custom Yosemite Itineraries
               </p>
             </div>
           </div>
 
           {/* Right Column */}
-          <div className="w-full md:w-7/12 text-stroke-orange p-6 md:p-8 rounded-lg ml-24">
+          <div className="w-full md:w-7/12 text-stroke-orange p-4 sm:p-6 md:p-8 rounded-lg md:ml-24">
             <div className="space-y-8">
-              <div className="md:pt-24 md:ml-24">
+              <div className="md:pt-24 md:ml-24 text-center md:text-left">
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 md:mt-20">
                   Why use us?
                 </h2>
-                <p className="text-base md:text-lg text-white w-[450px] mb-4">
+                <p className="text-base md:text-lg text-white mb-4">
                   We understand that online search tools are becoming
                   increasingly advanced, but we hold firm that there's no
                   substitute for experience. If you don't have time for a deep
@@ -53,7 +52,7 @@ const CustomItins = () => {
                   choose the Marengo Bros to craft your personalized Yosemite
                   itinerary.
                 </p>
-                <p className="text-base md:text-lg text-white w-[450px]">
+                <p className="text-base md:text-lg text-white">
                   From solo backcountry adventures to family outings in Gold
                   Rush gateway towns, we know the region and understand what
                   travelers want.
@@ -61,10 +60,10 @@ const CustomItins = () => {
               </div>
 
               {/* Learn More Button */}
-              <div className="w-full sm:pt-4 flex justify-center pb-16 sm:pb-4">
+              <div className="w-full pt-4 flex justify-center pb-16 sm:pb-4">
                 <a
                   href="mailto:info@marengobros.com"
-                  className="bg-[#77721f] hover:bg-black inline-block px-3 py-1.5 text-white font-semibold rounded-full transition duration-300 border-2 border-white mx-auto"
+                  className="bg-[#77721f] hover:bg-black inline-block px-3 py-1.5 text-white font-semibold rounded-full transition duration-300 border-2 border-white"
                 >
                   Learn More
                 </a>
