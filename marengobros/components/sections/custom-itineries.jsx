@@ -26,7 +26,7 @@ const CustomItins = () => {
 
       {/* Content Container */}
       <div className="container mx-auto px-4 pb-2 relative z-10">
-        <div className="flex flex-col md:flex-row gap-8 md:gap-16">
+        <div className="flex flex-col md:flex-row md:gap-16">
           {/* Left Column */}
           <div className="w-full md:w-5/12 text-center md:text-left">
             <div className="flex flex-col items-center justify-start gap-4 md:gap-2 mb-8">
