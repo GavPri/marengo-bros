@@ -31,7 +31,7 @@ export default function ContentWriting() {
         <div className="absolute inset-0 bg-transparent bg-opacity-60 z-10"></div>
 
         {/* Content container */}
-        <div className="absolute inset-0 flex flex-col items-start sm:items-center justify-center px-4 z-20 min-h-screen mt-12 sm:mt-0">
+        <div className="absolute inset-0 flex flex-col items-start sm:items-center justify-start md:justify-center px-4 z-20 min-h-screen mt-12 sm:mt-0">
           <div className="max-w-2xl w-full px-6 py-10 rounded-2xl text-center relative">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-xl text-stroke-orange">
               Content Writing
