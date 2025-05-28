@@ -49,15 +49,14 @@ export default function MarengoBrothersProfile() {
         </div>
 
         {/* Center Logo */}
-        <div className="mb-16 md:mb-0 flex flex-col items-center">
-          <div className="p-4 shadow-xl rounded-3xl">
+        <div className="mb-16 md:mb-0 flex flex-col items-center justify-center">
+          
             <Logo />
-            <div className="flex flex-col gap-6 mt-4 text-center">
-              <Button className="bg-[#77721f] border-2 rounded-full text-stroke-orange border-white text-xl hover:cursor-pointer">
-                <a href="mailto:info@marengobros.com">Contact Us</a>
-              </Button>
-            </div>
-          </div>
+
+            <Button className="bg-[#77721f] mx-auto border-2 rounded-full text-stroke-orange border-white text-lg hover:cursor-pointer w-4/5">
+              <a href="mailto:info@marengobros.com">Contact Us</a>
+            </Button>
+          
         </div>
 
         {/* Dan's Profile Card */}
@@ -76,12 +75,12 @@ export default function MarengoBrothersProfile() {
           <div className="pt-28 rounded-3xl bg-[#7a7336] text-white shadow-xl border-2 border-white px-4 pb-6 text-center">
             <p className="text-base leading-snug mt-6">
               There's no place Dan Marengo would rather be than in the wild. A
-              career travel writer and destination marketer, Dan approaches creative
-              assignments with a native NorCal perspective fueled by a worldly
-              (some might say otherworldly) imagination. Dan has explored
-              California extensively, from the cables at Half Dome to the Baja
-              coast, birdwatching in Berkeley to the boulder fields of Joshua
-              Tree.
+              career travel writer and destination marketer, Dan approaches
+              creative assignments with a native NorCal perspective fueled by a
+              worldly (some might say otherworldly) imagination. Dan has
+              explored California extensively, from the cables at Half Dome to
+              the Baja coast, birdwatching in Berkeley to the boulder fields of
+              Joshua Tree.
             </p>
           </div>
         </div>
