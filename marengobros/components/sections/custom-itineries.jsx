@@ -28,10 +28,10 @@ const CustomItins = () => {
       <div className="container mx-auto px-4 pb-2 relative z-10">
         <div className="flex flex-col md:flex-row md:gap-16">
           {/* Left Column */}
-          <div className="w-full md:w-5/12 text-center md:text-left">
+          <div className="w-full md:w-5/12 text-center md:text-left md:mt-10">
             <div className="flex flex-col items-center justify-start gap-4 md:gap-2 mb-8">
               <CiLogo />
-              <p className="text-stroke-orange text-4xl tracking-tighter font-bold">
+              <p className="text-stroke-orange text-white text-4xl tracking-tighter font-bold">
                 Custom Yosemite Itineraries
               </p>
             </div>
@@ -46,13 +46,13 @@ const CustomItins = () => {
                 </h2>
                 <p className="text-sm md:text-lg text-white mb-4">
                   We understand that online search tools are becoming
-                  increasingly advanced, but we hold firm that there's no
+                  increasingly advanced, but hold firm that there's no
                   substitute for experience. If you don't have time for a deep
                   dive, or you'd rather get first-hand tips from pros, then
-                  choose the Marengo Bros to craft your personalized Yosemite
+                  choose the Marengo Bros. to craft your personalized Yosemite
                   itinerary.
                 </p>
-                <p className="text-base md:text-lg text-white">
+                <p className="text-sm md:text-lg text-white">
                   From solo backcountry adventures to family outings in Gold
                   Rush gateway towns, we know the region and understand what
                   travelers want.

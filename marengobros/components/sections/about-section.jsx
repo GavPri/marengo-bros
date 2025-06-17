@@ -14,7 +14,7 @@ export default function MarengoBrothersProfile() {
           src="/redwood-bg.png"
           alt="Redwood Forest Background"
           layout="fill"
-          objectFit="cover"
+          objectFit="cover" // Default for larger screens
           className="brightness-90"
           priority
         />
@@ -50,13 +50,11 @@ export default function MarengoBrothersProfile() {
 
         {/* Center Logo */}
         <div className="mb-16 md:mb-0 flex flex-col items-center justify-center">
-          
-            <Logo />
+          <Logo />
 
-            <Button className="bg-[#77721f] mx-auto border-2 rounded-full text-stroke-orange border-white text-lg hover:cursor-pointer w-4/5">
-              <a href="mailto:info@marengobros.com">Contact Us</a>
-            </Button>
-          
+          <Button className="bg-[#4596da] mx-auto border-2 rounded-full text-stroke-orange border-white text-lg hover:cursor-pointer w-4/5">
+            <a href="mailto:info@marengobros.com">Contact Us</a>
+          </Button>
         </div>
 
         {/* Dan's Profile Card */}

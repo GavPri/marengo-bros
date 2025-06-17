@@ -33,7 +33,7 @@ export default function ContentWriting() {
         {/* Content container */}
         <div className="absolute inset-0 flex flex-col items-start sm:items-center justify-start md:justify-center px-4 z-20 min-h-screen mt-12 sm:mt-0">
           <div className="max-w-2xl w-full px-6 py-10 rounded-2xl text-center relative">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-xl text-stroke-orange">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white drop-shadow-xl text-stroke">
               Content Writing
             </h2>
 
@@ -41,7 +41,7 @@ export default function ContentWriting() {
               The Marengo Bros. believe in the synergy between wide open spaces
               and nuanced storytelling. As native Californians with decades of
               experience in travel marketing, their writing reflects a lifetime
-              of adventure and their deep love for the Golden State.
+              of adventure and deep love for the Golden State.
             </p>
 
             <a

@@ -20,7 +20,7 @@ export default function Typewriter() {
   }, [index]);
 
   return (
-    <h1 className="text-3xl  font-semibold font-mono text-white text-stroke-orange text-center">
+    <h1 className="text-md md:text-3xl font-semibold font-mono text-white text-stroke-orange text-center">
       {displayedText}
     </h1>
   );
