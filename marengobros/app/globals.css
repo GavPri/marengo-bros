@@ -5,6 +5,15 @@
 }
 @custom-variant dark (&:is(.dark *));
 
+.font-weight{
+  font-weight: 900;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 1px white;
+  text-stroke: 0.1px rgb(246, 242, 242); /* fallback for other browsers */
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -50,12 +59,7 @@ html {
 }
 
 /* styles/globals.css or your component's CSS */
-.text-stroke {
-  -webkit-background-clip: text;
-  background-clip: text;
-  /* color: transparent; */
-  text-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px white;
-}
+
 /* styles/globals.css or your component's CSS */
 .text-stroke-orange {
   color: white; /* Text color */

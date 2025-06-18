@@ -1,14 +1,34 @@
+"use client";
+
 import Image from "next/image";
 import CiLogo from "../ui/custom-itins-logo";
 
 const CustomItins = () => {
+  
   return (
     <section
       id="customItins"
-      className="relative w-full min-h-screen overflow-hidden"
+      className="relative w-full min-h-[100dvh] overflow-hidden"
     >
-      {/* Background Image */}
-      <div className="absolute inset-0 w-full h-full -z-10">
+      {/* 📱 Mobile: Video Background */}
+      <div className="absolute inset-0 w-full h-[100dvh] -z-10 md:hidden">
+        <video
+          
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
+          pla
+        >
+          <source src="/waterfallbg1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="absolute inset-0 bg-black/10" />
+      </div>
+
+      {/* 💻 Desktop: Static Image Background */}
+      <div className="absolute inset-0 w-full h-full -z-10 hidden md:block">
         <Image
           src="/yosemite-cliff-itins.png"
           alt="Yosemite Cliff"
@@ -24,14 +44,14 @@ const CustomItins = () => {
         <div className="absolute inset-0 bg-black/20" />
       </div>
 
-      {/* Content Container */}
+      {/* 🔤 Content */}
       <div className="container mx-auto px-4 pb-2 relative z-10">
         <div className="flex flex-col md:flex-row md:gap-16">
           {/* Left Column */}
           <div className="w-full md:w-5/12 text-center md:text-left md:mt-10">
             <div className="flex flex-col items-center justify-start gap-4 md:gap-2 mb-8">
               <CiLogo />
-              <p className="text-stroke-orange text-white text-4xl tracking-tighter font-bold">
+              <p className="text-stroke-orange text-white text-4xl tracking-tighter font-bold pt-2">
                 Custom Yosemite Itineraries
               </p>
             </div>

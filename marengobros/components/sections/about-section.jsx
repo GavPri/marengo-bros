@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Logo from "../ui/logo";
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 export default function MarengoBrothersProfile() {
   return (
@@ -8,22 +8,26 @@ export default function MarengoBrothersProfile() {
       id="about"
       className="relative min-h-screen w-full overflow-hidden"
     >
-      {/* Background Image - Redwood Forest */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/redwood-bg.png"
-          alt="Redwood Forest Background"
-          layout="fill"
-          objectFit="cover" // Default for larger screens
-          className="brightness-90"
-          priority
+      {/* Background Image - Fixed Simulation (Mobile-Safe) */}
+      <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
+        <div
+          className="h-full w-full bg-[url('/redwood-bg.png')] bg-cover bg-center bg-no-repeat"
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            transform: "translateZ(0)",
+            willChange: "transform",
+          }}
         />
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 flex min-h-screen w-full flex-col items-center justify-center px-4 py-12 md:flex-row md:items-center md:justify-center md:gap-24 lg:gap-32">
+      <div className="relative z-10 flex min-h-screen w-full flex-col items-center justify-center px-4 py-12 md:flex-row md:items-center md:justify-center md:gap-24 lg:gap-32 bg-transparent">
         {/* Scott's Profile Card */}
-        <div className="relative w-[240px]  my-16  md:mb-0">
+        <div className="relative w-[240px] my-16 md:mb-0">
           {/* Floating Profile Image */}
           <div className="absolute left-1/2 -top-20 z-10 h-52 w-36 -translate-x-1/2 transform overflow-hidden rounded-2xl border-4 border-white bg-white shadow-lg">
             <Image
@@ -51,8 +55,7 @@ export default function MarengoBrothersProfile() {
         {/* Center Logo */}
         <div className="mb-16 md:mb-0 flex flex-col items-center justify-center">
           <Logo />
-
-          <Button className="bg-[#4596da] mx-auto border-2 rounded-full text-stroke-orange border-white text-lg hover:cursor-pointer w-4/5">
+          <Button className="bg-[#064b84] mx-auto border-2 rounded-full text-stroke-orange border-white text-lg hover:cursor-pointer w-4/5">
             <a href="mailto:info@marengobros.com">Contact Us</a>
           </Button>
         </div>
