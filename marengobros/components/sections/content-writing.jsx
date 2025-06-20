@@ -61,7 +61,7 @@ export default function ContentWriting() {
 
             <a
               href="mailto:info@marengobros.com"
-              className={`bg-[#77721f] ${fed.className} hover:bg-black border-2 border-white rounded-full capitalize text-stroke-orange cursor-pointer font-bold py-0.75 md:py-1.5 px-1.5 md:px-3 text-lg shadow-md flex items-center justify-center w-fit mx-auto transition-all duration-200`}
+              className={`bg-[#77721f] ${fed.className} hover:bg-black border-2 border-white rounded-full uppercase text-stroke-orange cursor-pointer font-bold py-0.75 md:py-1.5 px-1.5 md:px-3 text-lg shadow-md flex items-center justify-center w-fit mx-auto transition-all duration-200`}
             >
               Contact Us<span className="ml-2">➤</span>
             </a>
