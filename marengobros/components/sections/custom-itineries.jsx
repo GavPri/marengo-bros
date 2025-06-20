@@ -48,7 +48,7 @@ const CustomItins = () => {
       <div className="container mx-auto px-4 pb-2 relative z-10">
         <div className="flex flex-col md:flex-row md:gap-16">
           {/* Left Column */}
-          <div className="w-full md:w-5/12 text-center md:text-left md:mt-10">
+          <div className="w-full md:w-5/12 text-center md:text-left mt-8">
             <div className="flex flex-col items-center justify-start gap-4 md:gap-2 mb-8">
               <CiLogo />
               <p className="text-stroke-orange text-white text-4xl tracking-tighter font-bold pt-2">

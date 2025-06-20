@@ -15,8 +15,8 @@ const CiLogo = () => {
       <Image
         src="/mb-logo-border-rounded.png"
         alt="MB Logo"
-        width={100}
-        height={100}
+        width={90}
+        height={90}
         quality={100}
       />
     </Link>

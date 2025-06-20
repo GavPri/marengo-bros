@@ -1,11 +1,12 @@
 import Image from "next/image";
 
-import { Viaoda_Libre } from "next/font/google";
 
-const amar = Viaoda_Libre({
+import { Federo } from "next/font/google";
+
+const fed = Federo({
   subsets: ["latin"],
   weight: "400", // Only 400 is available for Amarante
-  variable: "--font-amarante",
+  variable: "--font-federo",
 });
 
 
@@ -45,9 +46,9 @@ export default function ContentWriting() {
             <div className=" flex items-center justify-center p-8">
               <h2
                 // style={{ fontWeight: 900 }}
-                className={`${amar.className} text-4xl md:text-5xl mb-4 text-[#d2691e] text-stroke-white drop-shadow-xl uppercase tracking-wide`}
+                className={`${fed.className} text-5xl mb-4 text-[#d2691e] text-stroke-white drop-shadow-xl uppercase tracking-wide`}
               >
-                Content Writing
+                Content {" "}  Writing
               </h2>
             </div>
 
@@ -60,7 +61,7 @@ export default function ContentWriting() {
 
             <a
               href="mailto:info@marengobros.com"
-              className={`bg-[#77721f] ${amar.className} hover:bg-black border-2 border-white rounded-full text-stroke-orange cursor-pointer font-bold py-0.75 md:py-1.5 px-1.5 md:px-3 text-lg shadow-md flex items-center justify-center w-fit mx-auto transition-all duration-200`}
+              className={`bg-[#77721f] ${fed.className} hover:bg-black border-2 border-white rounded-full capitalize text-stroke-orange cursor-pointer font-bold py-0.75 md:py-1.5 px-1.5 md:px-3 text-lg shadow-md flex items-center justify-center w-fit mx-auto transition-all duration-200`}
             >
               Contact Us<span className="ml-2">➤</span>
             </a>
@@ -72,7 +73,7 @@ export default function ContentWriting() {
                   href="https://www.yosemite.com/yosemite-mariposa-stories/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`${amar.className} my-2 inline-block`}
+                  className={`${fed.className} my-2 inline-block`}
                 >
                   Marengo Bros. <br/>Stories
                 </a>
