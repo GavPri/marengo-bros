@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 
-import { Federo } from "next/font/google";
+import { Viaoda_Libre} from "next/font/google";
 
-const fed = Federo({
+const fed = Viaoda_Libre({
   subsets: ["latin"],
   weight: "400", // Only 400 is available for Amarante
   variable: "--font-federo",
