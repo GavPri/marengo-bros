@@ -1,14 +1,12 @@
 import Image from "next/image";
 
-
-import { Viaoda_Libre} from "next/font/google";
+import { Viaoda_Libre } from "next/font/google";
 
 const fed = Viaoda_Libre({
   subsets: ["latin"],
   weight: "400", // Only 400 is available for Amarante
   variable: "--font-federo",
 });
-
 
 export default function ContentWriting() {
   return (
@@ -48,7 +46,8 @@ export default function ContentWriting() {
                 // style={{ fontWeight: 900 }}
                 className={`${fed.className}  text-4xl lg:text-5xl mb-4 text-[#d2691e] text-stroke-white drop-shadow-xl uppercase tracking-wide text-center lg:text-left inline-flex gap-2.5 lg:justify-between lg:w-full`}
               >
-                <span className="lg:ml-[40px]">Content</span><span className="lg:mr-[90px]">Writing</span>
+                <span className="lg:ml-[40px]">Content</span>
+                <span className="lg:mr-[90px]">Writing</span>
               </h2>
             </div>
 
@@ -61,7 +60,7 @@ export default function ContentWriting() {
 
             <a
               href="mailto:info@marengobros.com"
-              className={`bg-[#77721f] ${fed.className} hover:bg-black border-2 border-white rounded-full text-stroke-orange cursor-pointer font-bold py-0.75 md:py-0.5 px-1 md:px-1.5 text-sm shadow-md flex items-center justify-center w-fit mx-auto transition-all duration-200`}
+              className={`bg-[#77721f] ${fed.className} hover:bg-black border-2 uppercase border-white rounded-full text-stroke-orange cursor-pointer font-bold py-0.75 md:py-0.5 px-1 md:px-1.5 text-sm shadow-md flex items-center justify-center w-fit mx-auto transition-all duration-200`}
             >
               Contact Us<span className="ml-2">➤</span>
             </a>
@@ -75,7 +74,8 @@ export default function ContentWriting() {
                   rel="noopener noreferrer"
                   className={`${fed.className} my-2 inline-block`}
                 >
-                  Marengo Bros. <br/>Stories
+                  Marengo Bros. <br />
+                  Stories
                 </a>
               </span>{" "}
               <br />
