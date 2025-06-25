@@ -42,13 +42,13 @@ export default function ContentWriting() {
 
         {/* Content container */}
         <div className="absolute inset-0 flex flex-col items-start sm:items-center justify-start md:justify-center px-4 z-20 min-h-screen mt-12 sm:mt-0">
-          <div className="max-w-2xl w-full px-6 py-10 rounded-2xl text-center relative">
-            <div className=" flex items-center justify-center p-8">
+          <div className="max-w-2xl w-full px-6 py-10 rounded-2xl text-center relative flex flex-col items-center justify-center">
+            <div className="w-full flex justify-center items-center">
               <h2
                 // style={{ fontWeight: 900 }}
-                className={`${fed.className} text-5xl mb-4 text-[#d2691e] text-stroke-white drop-shadow-xl uppercase tracking-wide`}
+                className={`${fed.className}  text-4xl lg:text-5xl mb-4 text-[#d2691e] text-stroke-white drop-shadow-xl uppercase tracking-wide text-center lg:text-left inline-flex gap-2.5 lg:justify-between lg:w-full`}
               >
-                Content {" "}  Writing
+                <span className="lg:ml-[40px]">Content</span><span className="lg:mr-[90px]">Writing</span>
               </h2>
             </div>
 
@@ -61,14 +61,14 @@ export default function ContentWriting() {
 
             <a
               href="mailto:info@marengobros.com"
-              className={`bg-[#77721f] ${fed.className} hover:bg-black border-2 border-white rounded-full uppercase text-stroke-orange cursor-pointer font-bold py-0.75 md:py-1.5 px-1.5 md:px-3 text-lg shadow-md flex items-center justify-center w-fit mx-auto transition-all duration-200`}
+              className={`bg-[#77721f] ${fed.className} hover:bg-black border-2 border-white rounded-full text-stroke-orange cursor-pointer font-bold py-0.75 md:py-0.5 px-1 md:px-1.5 text-sm shadow-md flex items-center justify-center w-fit mx-auto transition-all duration-200`}
             >
               Contact Us<span className="ml-2">➤</span>
             </a>
 
             <p className="text-white mb-8 font-bold text-lg md:text-2xl pt-8 md:pt-16 ">
               Check out <br />
-              <span className="text-stroke-orange tracking-wide text-xl md:text-4xl">
+              <span className="text-stroke-orange tracking-wide text-4xl md:text-4xl">
                 <a
                   href="https://www.yosemite.com/yosemite-mariposa-stories/"
                   target="_blank"
