@@ -15,8 +15,8 @@ const MobileHomeLogo = () => {
       <Image
         src="/mb-logo-border-rounded.png"
         alt="MB Logo"
-        width={80}
-        height={80}
+        width={120}
+        height={120}
         quality={100}
       />
     </Link>

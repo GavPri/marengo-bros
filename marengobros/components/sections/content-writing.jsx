@@ -46,7 +46,7 @@ export default function ContentWriting() {
                 // style={{ fontWeight: 900 }}
                 className={`${fed.className}  text-4xl lg:text-5xl mb-4 text-[#d2691e] text-stroke-white drop-shadow-xl uppercase tracking-wide text-center lg:text-left inline-flex gap-2.5 lg:justify-between lg:w-full`}
               >
-                <span className="lg:ml-[40px]">Content</span>
+                <span className="lg:ml-[54px]">Content</span>
                 <span className="lg:mr-[90px]">Writing</span>
               </h2>
             </div>
