@@ -30,8 +30,8 @@ const HeroSection = () => {
       </div>
 
       {/* Content on top of the banner */}
-      <div className="w-screen h-screen flex flex-col items-center gap-4 justify-between px-4 sm:px-8 pt-5 md:pt-10">
-        <div className="flex flex-col gap-6 items-center justify-center mt-15 sm:mt-0">
+      <div className="w-screen h-screen flex flex-col items-center gap-4 justify-between px-4 sm:px-8 pt-3 md:pt-10">
+        <div className="flex flex-col gap-6 items-center justify-center mt-12 sm:mt-0">
           {/* Desktop logo */}
           <div className="hidden md:block">
             <Logo />

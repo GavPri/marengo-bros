@@ -3,14 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import { usePathname } from "next/navigation";
 
 const navItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   { label: "Content Writing", href: "/content-writings" },
-  { label: "Custom Itineraries", href: "/custom-itineries" },
+  { label: "Custom Itineraries", href: "/custom-itineraries" },
 ];
 
 export default function NavPills() {
@@ -21,7 +21,7 @@ export default function NavPills() {
     <>
       {/* Mobile Navigation */}
       <div className="fixed bottom-0 md:bottom-8 left-1/2 transform -translate-x-1/2 z-30">
-        <Sheet open={open} onOpenChange={setOpen} >
+        <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild>
             <button
               className={

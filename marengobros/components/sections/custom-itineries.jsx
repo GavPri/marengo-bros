@@ -85,7 +85,7 @@ const CustomItins = () => {
                   href="mailto:info@marengobros.com"
                   className="bg-[#77721f] hover:bg-black inline-block px-3 py-1.5 text-white font-semibold rounded-full transition duration-300 border-2 border-white"
                 >
-                  Learn More
+                  Contact Us
                 </a>
               </div>
             </div>
